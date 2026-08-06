@@ -1,142 +1,43 @@
-\# Sprint 1
+# Sprint 1 — Java Backend Excellence
 
+## Objective
 
+Build a strong Java backend foundation.
 
-\## Objective
+---
 
+## Status
 
+🔄 In Progress (60%)
 
-Strengthen Java backend fundamentals.
+---
 
+## Tickets
 
+| Ticket | Topic | Status |
+|---------|-------|--------|
+| Ticket-001 | Java Collections | ✅ |
+| Ticket-002 | JVM & Memory | ✅ |
+| Ticket-003 | Spring Boot Request Lifecycle | ✅ |
+| Ticket-004 | Spring Boot Production Practices | 🔄 Next |
+| Sprint Review | ⏳ |
 
-\---
+---
 
+## Deliverables
 
+### Completed Repositories
 
-\## Status
+- java-collections-playground
+- java-jvm-playground
+- springboot-request-lifecycle-demo
 
+### HMS Reviews
 
+- Collection usage review
+- JVM review
+- Request flow review
 
-🔄 In Progress
+### Next Focus
 
-
-
-\---
-
-
-
-\## Tickets
-
-
-
-\### Ticket-001
-
-
-
-Topic
-
-
-
-Java Collections
-
-
-
-Status
-
-
-
-✅ Completed
-
-
-
-Repository
-
-
-
-https://github.com/shreyasbala2305/java-collections-playground
-
-
-
-Deliverables
-
-
-
-\- Repository
-
-\- README
-
-\- Collections Examples
-
-
-
-\---
-
-
-
-\### Ticket-002
-
-
-
-Topic
-
-
-
-JVM \& Memory Management
-
-
-
-Status
-
-
-
-🔄 Next
-
-
-
-\---
-
-
-
-\### Ticket-003
-
-
-
-Streams \& Functional Programming
-
-
-
-⏳
-
-
-
-\---
-
-
-
-\### Ticket-004
-
-
-
-Spring Boot Lifecycle
-
-
-
-⏳
-
-
-
-\---
-
-
-
-\### Ticket-005
-
-
-
-Validation \& Exception Handling
-
-
-
-⏳
-
+Spring Boot Production Practices

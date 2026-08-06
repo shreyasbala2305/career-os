@@ -1,24 +1,15 @@
-\# Skills Matrix
-
-
+# Skills Matrix
 
 | Skill | Learn | Project | HMS | Interview | Resume |
-
-|---------|--------|----------|------|------------|---------|
-
+|--------|--------|----------|------|------------|---------|
 | Java Collections | ✅ | ✅ | ⏳ | ✅ | ❌ |
-
-| JVM | 🔄 | ❌ | ❌ | ❌ | ❌ |
-
-| Streams | ✅ | ✅ | ❌ | 🔄 | ❌ |
-
-| Spring Security | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-| Docker | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-| Redis | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-| Kafka | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-| AWS | ❌ | ❌ | ❌ | ❌ | ❌ |
-
+| JVM | ✅ | ✅ | ⏳ | ✅ | ❌ |
+| Spring Request Lifecycle | ✅ | ✅ | ⏳ | ✅ | ❌ |
+| Validation | 🔄 | ❌ | ❌ | ❌ | ❌ |
+| Logging | 🔄 | ❌ | ❌ | ❌ | ❌ |
+| PostgreSQL | ⏳ | ❌ | ❌ | ❌ | ❌ |
+| Spring Security | ⏳ | ❌ | ❌ | ❌ | ❌ |
+| Docker | ⏳ | ❌ | ❌ | ❌ | ❌ |
+| Redis | ⏳ | ❌ | ❌ | ❌ | ❌ |
+| Kafka | ⏳ | ❌ | ❌ | ❌ | ❌ |
+| AWS | ⏳ | ❌ | ❌ | ❌ | ❌ |
