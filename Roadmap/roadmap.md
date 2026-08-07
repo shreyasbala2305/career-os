@@ -4,19 +4,19 @@
 
 ---
 
-# Current Status
+## Current Status
 
-## Phase
+### Phase
 
-🟢 Phase 1 – Java Backend Foundation
+🟢 Phase 2 – Production Backend Engineering
 
-## Sprint
+### Sprint
 
-Sprint 1 – Java Backend Excellence
+Sprint 2 – Production Telemedicine HMS
 
-## Current Ticket
+### Current Ticket
 
-Ticket-004 – Spring Boot Production Practices
+Ticket-005 – HMS Architecture Review
 
 ---
 
@@ -25,8 +25,8 @@ Ticket-004 – Spring Boot Production Practices
 | Milestone | Status |
 |-----------|--------|
 | M0 – Engineering Setup | ✅ Completed |
-| M1 – Java Backend Foundation | 🔄 In Progress |
-| M2 – Production Spring Boot Developer | ⏳ |
+| M1 – Java Backend Foundation | ✅ Completed |
+| M2 – Production Spring Boot Developer | 🔄 In Progress |
 | M3 – Production Microservices Engineer | ⏳ |
 | M4 – Cloud & DevOps Engineer | ⏳ |
 | M5 – System Design & Performance | ⏳ |
@@ -45,7 +45,7 @@ Ticket-004 – Spring Boot Production Practices
 
 ---
 
-# Phase 1 – Java Backend Foundation
+# Phase 1 – Java Backend Foundation & Production Practices
 
 ## Sprint 1
 

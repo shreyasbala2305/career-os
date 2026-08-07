@@ -2,9 +2,10 @@
 
 | Skill | Learn | Project | HMS | Interview | Resume |
 |--------|--------|----------|------|------------|---------|
-| Java Collections | ✅ | ✅ | ⏳ | ✅ | ❌ |
-| JVM | ✅ | ✅ | ⏳ | ✅ | ❌ |
-| Spring Request Lifecycle | ✅ | ✅ | ⏳ | ✅ | ❌ |
+| Java Collections | ✅ | ✅ | ✅ | ✅ | ❌ |
+| JVM Internals | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Spring Boot Request Lifecycle | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Spring Boot Production Practices | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Validation | 🔄 | ❌ | ❌ | ❌ | ❌ |
 | Logging | 🔄 | ❌ | ❌ | ❌ | ❌ |
 | PostgreSQL | ⏳ | ❌ | ❌ | ❌ | ❌ |
