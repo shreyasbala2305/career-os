@@ -49,33 +49,81 @@ Ticket-005 – HMS Architecture Review
 
 ## Sprint 1
 
+### Objective
+
+Build a strong Java backend foundation and establish production-oriented Spring Boot development practices.
+
+### Status
+
+✅ Completed
+
+### Tickets
+
 | Ticket | Topic | Status |
 |---------|-------|--------|
 | Ticket-001 | Java Collections | ✅ |
 | Ticket-002 | JVM & Memory Management | ✅ |
 | Ticket-003 | Spring Boot Request Lifecycle | ✅ |
-| Ticket-004 | Spring Boot Production Practices | 🔄 |
-| Sprint Review | Sprint 1 Review | ⏳ |
+| Ticket-004 | Spring Boot Production Practices | ✅ |
+
+### Deliverables
+
+#### Engineering Repositories
+
+- java-collections-playground
+- java-jvm-playground
+- springboot-request-lifecycle-demo
+- springboot-production-practices-demo
+
+#### Telemedicine HMS Improvements
+
+- Reviewed Java Collection usage
+- Applied JVM and memory management concepts
+- Improved understanding of Spring request lifecycle
+- Applied production-ready Spring Boot practices
+- Strengthened layered architecture
+- Improved validation strategy
+- Improved exception handling
+- Improved logging approach
+- Standardized API design
+
+#### Career Assets
+
+- GitHub portfolio strengthened
+- career-os updated
+- Interview preparation improved
+
+### Sprint Outcome
+
+Established a strong Java backend foundation by combining concept repositories with practical implementation in the Telemedicine HMS project.
 
 ---
 
-# Phase 2 – Production REST APIs
+# Phase 2 – Production Backend Engineering
 
 ## Sprint 2
 
-- REST API Design
-- DTO Pattern
-- Mapper Pattern
-- Bean Validation
-- API Versioning
-- Pagination
-- Filtering
-- Sorting
-- Swagger / OpenAPI
+### Objective
 
-Repository:
+Transform the Telemedicine HMS into a production-grade backend application by applying the concepts learned in Sprint 1.
 
-springboot-production-api
+### Tickets
+
+| Ticket | Topic | Status |
+|---------|-------|--------|
+| Ticket-005 | HMS Architecture Review | 🔄 |
+| Ticket-006 | Validation & Exception Handling | ⏳ |
+| Ticket-007 | Logging & Standard API Response | ⏳ |
+| Ticket-008 | Pagination & Filtering | ⏳ |
+| Ticket-009 | Documentation & Architecture | ⏳ |
+
+### Expected Outcome
+
+- Production-ready architecture
+- Cleaner codebase
+- Better API design
+- Stronger flagship project
+- Resume-ready engineering evidence
 
 ---
 
@@ -317,7 +365,7 @@ Deliverables:
 - ⭐ career-os
 - ⭐ portfolio
 
-## Engineering Repositories
+<!-- ## Engineering Repositories
 
 - ✅ java-collections-playground
 - ✅ java-jvm-playground
@@ -334,7 +382,28 @@ Deliverables:
 - ⏳ aws-spring-demo
 - ⏳ github-actions-demo
 - ⏳ monitoring-demo
-- ⏳ performance-lab
+- ⏳ performance-lab -->
+
+## Engineering Repositories
+
+### Completed
+
+- ✅ java-collections-playground
+- ✅ java-jvm-playground
+- ✅ springboot-request-lifecycle-demo
+- ✅ springboot-production-practices-demo
+
+### Planned
+
+- spring-security-jwt-demo
+- docker-springboot-demo
+- redis-cache-demo
+- spring-cloud-demo
+- kafka-event-demo
+- aws-spring-demo
+- github-actions-demo
+- monitoring-demo
+- performance-lab
 
 ---
 
