@@ -6,21 +6,26 @@ Become a Production-Ready Java Backend Engineer capable of building scalable bac
 
 ---
 
-## Current Milestone
-
-🟢 M1 – Java Backend Foundation ✅ Completed
-
----
-
 ## Current Sprint
 
 Sprint 2 – Production Telemedicine HMS
 
 ---
 
-## Current Ticket
+## Sprint Progress
 
-Ticket-005 – Telemedicine HMS Architecture Review
+| Sprint | Status |
+|---------|--------|
+| Sprint 1 | ✅ Completed |
+| Sprint 2 | 🔄 In Progress |
+
+### Sprint 2 Progress
+
+- ✅ S2-I1 — Engineering Standards
+- ✅ S2-I2 — DTO & API Contract Standardization
+- ⏳ S2-I3 — Validation & Exception Handling
+- ⏳ S2-I4 — Logging & Observability
+- ⏳ S2-I5 — API Quality
 
 ---
 

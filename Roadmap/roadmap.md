@@ -103,19 +103,13 @@ Established a strong Java backend foundation by combining concept repositories w
 
 ## Sprint 2
 
-### Objective
-
-Transform the Telemedicine HMS into a production-grade backend application by applying the concepts learned in Sprint 1.
-
-### Tickets
-
-| Ticket | Topic | Status |
-|---------|-------|--------|
-| Ticket-005 | HMS Architecture Review | 🔄 |
-| Ticket-006 | Validation & Exception Handling | ⏳ |
-| Ticket-007 | Logging & Standard API Response | ⏳ |
-| Ticket-008 | Pagination & Filtering | ⏳ |
-| Ticket-009 | Documentation & Architecture | ⏳ |
+| Initiative | Status |
+|------------|--------|
+| S2-I1 Engineering Standards | ✅ |
+| S2-I2 DTO & API Contract Standardization | ✅ |
+| S2-I3 Validation & Exception Handling | 🔄 |
+| S2-I4 Logging & Observability | ⏳ |
+| S2-I5 API Quality | ⏳ |
 
 ### Expected Outcome
 
