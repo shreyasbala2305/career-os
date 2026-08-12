@@ -6,31 +6,31 @@
 
 ## Current Status
 
-### Phase
+Current Milestone
 
-🟢 Phase 2 – Production Backend Engineering
+M3 – Production Infrastructure & DevOps
 
-### Sprint
+Current Sprint
 
-Sprint 2 – Production Telemedicine HMS
+Sprint 3
 
-### Current Ticket
+Current Initiative
 
-Ticket-005 – HMS Architecture Review
+S3-I1 – JWT Hardening & Refresh Token Architecture
 
 ---
 
 # Milestones
 
 | Milestone | Status |
-|-----------|--------|
-| M0 – Engineering Setup | ✅ Completed |
-| M1 – Java Backend Foundation | ✅ Completed |
-| M2 – Production Spring Boot Developer | 🔄 In Progress |
-| M3 – Production Microservices Engineer | ⏳ |
-| M4 – Cloud & DevOps Engineer | ⏳ |
-| M5 – System Design & Performance | ⏳ |
-| M6 – Interview & Offer Ready | ⏳ |
+|------------|---------|
+| M0 Engineering Setup | ✅ |
+| M1 Java Backend Foundation | ✅ |
+| M2 Production Backend Engineering | ✅ |
+| M3 Production Infrastructure & DevOps | 🔄 |
+| M4 Distributed Systems | ⏳ |
+| M5 Cloud Native Engineering | ⏳ |
+| M6 Interview & Offer Ready | ⏳ |
 
 ---
 
@@ -101,25 +101,35 @@ Established a strong Java backend foundation by combining concept repositories w
 
 # Phase 2 – Production Backend Engineering
 
-## Sprint 2
+# Sprint 2 
 
-| Initiative | Status |
-|------------|--------|
-| S2-I1 Engineering Standards | ✅ |
-| S2-I2 DTO & API Contract Standardization | ✅ |
-| S2-I3 Validation & Exception Handling | 🔄 |
-| S2-I4 Logging & Observability | ⏳ |
-| S2-I5 API Quality | ⏳ |
+## Completed Initiatives
 
-### Expected Outcome
+- Architecture Review ✅
+- Engineering Standards ✅
+- DTO & API Contract Standardization ✅
+- Validation & Exception Handling ✅
+- Logging & Observability ✅
+- API Quality & Documentation ✅
 
-- Production-ready architecture
-- Cleaner codebase
-- Better API design
-- Stronger flagship project
-- Resume-ready engineering evidence
+## Technical Deliverables
 
----
+- Standardized ApiResponse<T>
+- Request/Response DTO separation
+- Centralized validation
+- Global exception handling
+- SLF4J logging
+- Pagination
+- Filtering
+- Sorting
+- Improved API documentation
+- Engineering standards
+- Architecture review
+- Platform implementation backlog
+
+## Outcome
+
+Telemedicine HMS evolved from a functional microservices application into a production-oriented backend platform with standardized engineering practices.
 
 # Phase 3 – Database Engineering
 

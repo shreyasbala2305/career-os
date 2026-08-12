@@ -1,38 +1,40 @@
-# Sprint 2 — Production Telemedicine HMS
+# Sprint 2 - Production Telemedicine HMS
 
 ## Objective
 
-Transform the Telemedicine HMS into a production-grade backend application by applying the concepts learned in Sprint 1.
+Improve Telemedicine HMS by applying production-oriented engineering standards across core backend services.
 
----
+## Completed
 
-## Status
+- Architecture Review
+- Engineering Standards
+- DTO & API Contract Standardization
+- Validation & Exception Handling
+- Logging & Observability
+- API Quality & Documentation
 
-🔄 In Progress
+## Technical Achievements
 
----
+- Standardized API contracts
+- Eliminated entity exposure
+- Introduced reusable ApiResponse<T>
+- Implemented centralized validation
+- Added GlobalExceptionHandler
+- Standardized logging with SLF4J
+- Added pagination, filtering, and sorting
 
-## Tickets
+## Challenges
 
-| Ticket | Topic | Status |
-|---------|-------|--------|
-| Ticket-005 | HMS Architecture Review | 🔄 |
-| Ticket-006 | Validation & Exception Handling | ⏳ |
-| Ticket-007 | Logging & Standard API Response | ⏳ |
-| Ticket-008 | Pagination & Filtering | ⏳ |
-| Ticket-009 | Documentation & Architecture | ⏳ |
+- Updating Feign clients after response contract changes.
+- Maintaining compatibility between services during API migration.
+- Ensuring consistent implementation across multiple microservices.
 
----
+## Lessons Learned
 
-## Goal
+- Stable API contracts simplify frontend and service integration.
+- Standardization reduces long-term maintenance costs.
+- Small changes in shared contracts can have platform-wide impact.
 
-Upgrade the flagship project to production quality through iterative improvements.
+## Sprint Outcome
 
----
-
-## Expected Outcome
-
-- Cleaner architecture
-- Production-ready APIs
-- Better documentation
-- Stronger resume project
+Telemedicine HMS now follows consistent backend engineering practices and is ready for production infrastructure improvements.

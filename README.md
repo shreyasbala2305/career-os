@@ -6,62 +6,51 @@ Become a Production-Ready Java Backend Engineer capable of building scalable bac
 
 ---
 
-## Current Sprint
+# Current Progress
 
-Sprint 2 – Production Telemedicine HMS
+## Milestones
+
+- ✅ M0 – Engineering Setup
+- ✅ M1 – Java Backend Foundation
+- ✅ M2 – Production Backend Engineering
+- 🔄 M3 – Production Infrastructure & DevOps
+- ⏳ M4 – Distributed Systems
+- ⏳ M5 – Cloud Native Engineering
+- ⏳ M6 – Interview & Offer Ready
 
 ---
 
-## Sprint Progress
+## Sprint Status
 
 | Sprint | Status |
 |---------|--------|
 | Sprint 1 | ✅ Completed |
-| Sprint 2 | 🔄 In Progress |
-
-### Sprint 2 Progress
-
-- ✅ S2-I1 — Engineering Standards
-- ✅ S2-I2 — DTO & API Contract Standardization
-- ⏳ S2-I3 — Validation & Exception Handling
-- ⏳ S2-I4 — Logging & Observability
-- ⏳ S2-I5 — API Quality
+| Sprint 2 | ✅ Completed |
+| Sprint 3 | 🔄 Ready to Start |
 
 ---
 
-## Overall Progress
+## Engineering Portfolio
 
-| Phase | Status |
-|--------|--------|
-| Phase 0 | ✅ Completed |
-| Phase 1 | ✅ Completed |
-| Phase 2 | 🔄 In Progress |
+### Engineering Repositories
+
+- java-collections-playground
+- java-jvm-playground
+- springboot-request-lifecycle-demo
+- springboot-production-practices-demo
+
+### Flagship Project
+
+**Telemedicine HMS**
+
+Current State:
+Production-oriented Java Spring Boot Microservices Platform
 
 ---
 
-## Completed Repositories
+## Current Focus
 
-- ✅ java-collections-playground
-- ✅ java-jvm-playground
-- ✅ springboot-request-lifecycle-demo
-- ✅ springboot-production-practices-demo
-
----
-
-## Flagship Project
-
-🏥 Telemedicine HMS
-
-Current Status
-
-Production improvement in progress.
-
-Completed Improvements
-
-- Java Collections optimization
-- JVM concepts applied
-- Spring Request Lifecycle reviewed
-- Production Practices implemented
+Sprint 3 – Security, Testing & Containerization
 
 ---
 

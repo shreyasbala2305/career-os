@@ -6,8 +6,8 @@
 | JVM Internals | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Spring Boot Request Lifecycle | ✅ | ✅ | ✅ | ✅ | ❌ |
 | Spring Boot Production Practices | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Validation | 🔄 | ❌ | ❌ | ❌ | ❌ |
-| Logging | 🔄 | ❌ | ❌ | ❌ | ❌ |
+| Validation | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Logging | ✅ | ✅ | ✅ | ✅ | ❌ |
 | PostgreSQL | ⏳ | ❌ | ❌ | ❌ | ❌ |
 | Spring Security | ⏳ | ❌ | ❌ | ❌ | ❌ |
 | Docker | ⏳ | ❌ | ❌ | ❌ | ❌ |
