@@ -6,27 +6,34 @@ Become a Production-Ready Java Backend Engineer capable of building scalable bac
 
 ---
 
-# Current Progress
+## Current Progress
 
-## Milestones
+### Milestones
 
-- ✅ M0 – Engineering Setup
-- ✅ M1 – Java Backend Foundation
-- ✅ M2 – Production Backend Engineering
-- 🔄 M3 – Production Infrastructure & DevOps
-- ⏳ M4 – Distributed Systems
-- ⏳ M5 – Cloud Native Engineering
-- ⏳ M6 – Interview & Offer Ready
+| Milestone | Status |
+|---|---|
+| M0 – Engineering Setup | ✅ Completed |
+| M1 – Java Backend Foundation | ✅ Completed |
+| M2 – Production Backend Engineering | ✅ Completed |
+| M3 – Production Infrastructure & DevOps | 🔄 In Progress |
+| M4 – Distributed Systems | ⏳ Planned |
+| M5 – Cloud Native Engineering | ⏳ Planned |
+| M6 – Interview & Offer Ready | ⏳ Planned |
 
----
-
-## Sprint Status
+### Sprint Progress
 
 | Sprint | Status |
-|---------|--------|
-| Sprint 1 | ✅ Completed |
-| Sprint 2 | ✅ Completed |
-| Sprint 3 | 🔄 Ready to Start |
+|---|---|
+| Sprint 1 – Java Backend Foundation | ✅ Completed |
+| Sprint 2 – Production Backend Engineering | ✅ Completed |
+| Sprint 3 – Security, Testing & Containerization | 🔄 In Progress |
+
+### Sprint 3 Progress
+
+- ✅ S3-I1 – JWT Hardening & Refresh Token Architecture
+- ✅ S3-I2 – Docker & Docker Compose
+- ⏳ S3-I3 – Unit Testing
+- ⏳ S3-I4 – Integration Testing
 
 ---
 

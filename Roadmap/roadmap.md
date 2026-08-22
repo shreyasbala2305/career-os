@@ -4,26 +4,20 @@
 
 ---
 
-## Current Status
+# Current Status
 
-Current Milestone
+**Current Milestone:** M3 – Production Infrastructure & DevOps
 
-M3 – Production Infrastructure & DevOps
+**Current Sprint:** Sprint 3 – Security, Testing & Containerization
 
-Current Sprint
-
-Sprint 3
-
-Current Initiative
-
-S3-I1 – JWT Hardening & Refresh Token Architecture
+**Current Initiative:** S3-I3 – Unit Testing
 
 ---
 
 # Milestones
 
 | Milestone | Status |
-|------------|---------|
+|---|---|
 | M0 Engineering Setup | ✅ |
 | M1 Java Backend Foundation | ✅ |
 | M2 Production Backend Engineering | ✅ |
@@ -42,10 +36,16 @@ S3-I1 – JWT Hardening & Refresh Token Architecture
 - ✅ GitHub Profile
 - ✅ career-os
 - ✅ Development Workflow
+- ✅ Repository Strategy
+- ✅ Portfolio Structure
+
+### Outcome
+
+Established the GitHub, local development, repository, and career-tracking environment required for the accelerator.
 
 ---
 
-# Phase 1 – Java Backend Foundation & Production Practices
+# Phase 1 – Java Backend Foundation
 
 ## Sprint 1
 
@@ -60,257 +60,378 @@ Build a strong Java backend foundation and establish production-oriented Spring 
 ### Tickets
 
 | Ticket | Topic | Status |
-|---------|-------|--------|
+|---|---|---|
 | Ticket-001 | Java Collections | ✅ |
 | Ticket-002 | JVM & Memory Management | ✅ |
 | Ticket-003 | Spring Boot Request Lifecycle | ✅ |
 | Ticket-004 | Spring Boot Production Practices | ✅ |
+| Ticket-005 | Telemedicine HMS Architecture Review | ✅ |
 
-### Deliverables
-
-#### Engineering Repositories
+### Engineering Repositories
 
 - java-collections-playground
 - java-jvm-playground
 - springboot-request-lifecycle-demo
 - springboot-production-practices-demo
 
-#### Telemedicine HMS Improvements
+### Telemedicine HMS Improvements
 
 - Reviewed Java Collection usage
 - Applied JVM and memory management concepts
 - Improved understanding of Spring request lifecycle
-- Applied production-ready Spring Boot practices
+- Applied production-oriented Spring Boot practices
 - Strengthened layered architecture
 - Improved validation strategy
 - Improved exception handling
 - Improved logging approach
 - Standardized API design
+- Reviewed microservice architecture and production readiness
 
-#### Career Assets
+### Career Assets
 
 - GitHub portfolio strengthened
-- career-os updated
+- career-os established as engineering operating system
+- Engineering documentation introduced
 - Interview preparation improved
 
 ### Sprint Outcome
 
-Established a strong Java backend foundation by combining concept repositories with practical implementation in the Telemedicine HMS project.
+Established a strong Java backend foundation by combining focused learning repositories with practical implementation and architecture review of the Telemedicine HMS.
 
 ---
 
 # Phase 2 – Production Backend Engineering
 
-# Sprint 2 
+## Sprint 2
 
-## Completed Initiatives
+### Objective
 
-- Architecture Review ✅
-- Engineering Standards ✅
-- DTO & API Contract Standardization ✅
-- Validation & Exception Handling ✅
-- Logging & Observability ✅
-- API Quality & Documentation ✅
+Transform the Telemedicine HMS from a functional microservices application into a more consistent, maintainable, production-oriented backend platform.
 
-## Technical Deliverables
+### Status
 
-- Standardized ApiResponse<T>
+✅ Completed
+
+### Initiatives
+
+| Initiative | Status |
+|---|---|
+| Architecture Review | ✅ |
+| S2-I1 – Engineering Standards | ✅ |
+| S2-I2 – DTO & API Contract Standardization | ✅ |
+| S2-I3 – Validation & Exception Handling | ✅ |
+| S2-I4 – Logging & Observability | ✅ |
+| S2-I5 – API Quality & Documentation | ✅ |
+
+### Technical Deliverables
+
+- Standardized `ApiResponse<T>`
 - Request/Response DTO separation
-- Centralized validation
+- Reduced direct entity exposure
+- Centralized request validation
 - Global exception handling
+- Custom business exceptions
+- Standardized error handling
 - SLF4J logging
+- Removed console-based logging
 - Pagination
 - Filtering
 - Sorting
+- Improved REST API consistency
 - Improved API documentation
 - Engineering standards
-- Architecture review
-- Platform implementation backlog
+- Architecture compliance review
+- Engineering improvement backlog
 
-## Outcome
+### Outcome
 
-Telemedicine HMS evolved from a functional microservices application into a production-oriented backend platform with standardized engineering practices.
+Telemedicine HMS evolved from a functional microservices application into a more production-oriented backend platform with standardized engineering practices, API contracts, validation, error handling, logging, and API quality improvements.
 
-# Phase 3 – Database Engineering
+---
+
+# Phase 3 – Production Infrastructure & DevOps
 
 ## Sprint 3
 
-- PostgreSQL
-- Spring Data JPA
-- Hibernate
-- Transactions
-- Fetch Types
-- Lazy Loading
-- N+1 Problem
-- Query Optimization
-- Database Indexing
+### Objective
 
-Repository:
+Strengthen authentication, containerize the platform, introduce automated testing, and make the Telemedicine HMS easier to run and maintain as a production-oriented system.
 
-jpa-performance-demo
+### Status
 
----
+🔄 In Progress
 
-# Phase 4 – Security
+### Initiatives
 
-## Sprint 4
-
-- Spring Security
-- JWT Authentication
-- Refresh Token
-- RBAC
-- BCrypt
-- Security Filters
-
-Repository:
-
-spring-security-jwt-demo
+| Initiative | Status |
+|---|---|
+| S3-I1 – JWT Hardening & Refresh Token Architecture | ✅ |
+| S3-I2 – Docker & Docker Compose | ✅ |
+| S3-I3 – Unit Testing | 🔄 |
+| S3-I4 – Integration Testing | ⏳ |
+| Sprint 3 Review | ⏳ |
 
 ---
 
-# Phase 5 – Testing
+## S3-I1 – JWT Hardening & Refresh Token Architecture
 
-## Sprint 5
+### Completed
+
+- JWT authentication hardening
+- Access token lifecycle
+- Refresh token architecture
+- Token validation
+- Authentication flow improvements
+- Authorization/RBAC review
+- Secure authentication practices
+- Authentication documentation
+
+### Outcome
+
+Strengthened the HMS authentication architecture and introduced a more production-oriented access-token and refresh-token lifecycle.
+
+---
+
+## S3-I2 – Docker & Docker Compose
+
+### Completed
+
+- Docker fundamentals
+- Dockerfile
+- Spring Boot containerization
+- Docker Compose
+- Container networking
+- Environment configuration
+- Multi-service orchestration
+- PostgreSQL containerization where applicable
+- Containerized HMS startup workflow
+
+### Outcome
+
+Telemedicine HMS can be run as a containerized multi-service application using Docker Compose rather than requiring every service to be started manually.
+
+---
+
+## S3-I3 – Unit Testing
+
+### Status
+
+🔄 Current
+
+### Topics
 
 - JUnit 5
 - Mockito
-- Integration Testing
+- Unit testing principles
+- Service-layer testing
+- Controller testing
+- Mocking dependencies
+- Test organization
+- Success and failure scenarios
+- Test coverage
+
+### Engineering Repository
+
+`springboot-testing-demo`
+
+### HMS Application
+
+Apply unit testing to critical business logic across the core services.
+
+---
+
+## S3-I4 – Integration Testing
+
+### Status
+
+⏳ Planned
+
+### Topics
+
+- Spring Boot Test
+- MockMvc
+- Integration testing
+- PostgreSQL integration
 - Testcontainers
-- API Testing
+- API-level testing
+- Service interaction testing
 
-Repository:
+### HMS Application
 
-springboot-testing-demo
-
----
-
-# Phase 6 – Docker
-
-## Sprint 6
-
-- Docker
-- Dockerfile
-- Docker Compose
-- Multi-stage Build
-
-Repository:
-
-docker-springboot-demo
+Validate important service and API flows using realistic dependencies.
 
 ---
 
-# Phase 7 – Redis
+### Sprint 3 Expected Outcome
 
-## Sprint 7
+The Telemedicine HMS should have:
 
-- Redis
-- Cache Aside
+- Hardened authentication
+- Refresh token architecture
+- Containerized services
+- Docker Compose orchestration
+- Unit tests for critical business logic
+- Integration tests for critical API flows
+- Repeatable local execution
+
+---
+
+# Phase 4 – Distributed Systems
+
+## Sprint 4
+
+### Objective
+
+Introduce technologies and patterns required for scalable distributed backend systems.
+
+### Planned Initiatives
+
+| Initiative | Status |
+|---|---|
+| Redis & Caching | ⏳ |
+| Resilience4j & Fault Tolerance | ⏳ |
+| Kafka & Event-Driven Architecture | ⏳ |
+| Distributed Service Communication | ⏳ |
+
+### Topics
+
+#### Redis
+
+- Redis fundamentals
+- Cache-Aside pattern
 - TTL
-- Cache Eviction
+- Cache eviction
+- Cache invalidation
+- Spring Cache
+- Redis integration
 
 Repository:
 
-redis-cache-demo
+`redis-cache-demo`
 
----
+#### Resilience
 
-# Phase 8 – Spring Cloud & Microservices
+- Circuit Breaker
+- Retry
+- Timeout
+- Bulkhead
+- Fallback
 
-## Sprint 8
+#### Kafka
 
-- Eureka
-- API Gateway
-- Config Server
-- OpenFeign
-- Resilience4j
-
-Repository:
-
-spring-cloud-demo
-
----
-
-# Phase 9 – Event Driven Architecture
-
-## Sprint 9
-
-- Kafka
 - Producer
 - Consumer
+- Topics
+- Consumer Groups
+- Partitioning
+- Offset management
 - Retry
 - Dead Letter Queue
 
 Repository:
 
-kafka-event-demo
+`kafka-event-demo`
+
+### HMS Application
+
+Apply caching, resilience, and event-driven communication to appropriate HMS workflows.
 
 ---
 
-# Phase 10 – Cloud
+# Phase 5 – Cloud Native Engineering
 
-## Sprint 10
+## Sprint 5
 
-- AWS EC2
+### Objective
+
+Deploy and operate the backend platform using cloud infrastructure and automated delivery.
+
+### Planned Initiatives
+
+| Initiative | Status |
+|---|---|
+| AWS Infrastructure | ⏳ |
+| CI/CD | ⏳ |
+| Configuration & Secrets | ⏳ |
+| Production Deployment | ⏳ |
+
+### AWS
+
+- EC2
 - S3
 - IAM
 - RDS
+- Networking fundamentals
+- Security groups
+- Environment configuration
 
 Repository:
 
-aws-spring-demo
+`aws-spring-demo`
 
----
-
-# Phase 11 – CI/CD
-
-## Sprint 11
+### CI/CD
 
 - GitHub Actions
-- CI/CD
-- Deployment Pipelines
+- Build pipeline
+- Test pipeline
+- Docker image build
+- Deployment pipeline
 
 Repository:
 
-github-actions-demo
+`github-actions-demo`
 
 ---
 
-# Phase 12 – Monitoring
+# Phase 6 – Observability & Performance
 
-## Sprint 12
+## Sprint 6
+
+### Objective
+
+Develop the ability to monitor, diagnose, and optimize backend systems.
+
+### Planned Initiatives
+
+### Monitoring
 
 - Spring Boot Actuator
 - Micrometer
 - Prometheus
 - Grafana
+- Health checks
+- Metrics
+- Application monitoring
 
 Repository:
 
-monitoring-demo
+`monitoring-demo`
 
----
+### Performance Engineering
 
-# Phase 13 – Performance Engineering
-
-## Sprint 13
-
-- JVM Tuning
-- Thread Pools
-- Async Processing
-- Connection Pools
+- JVM tuning
+- Thread pools
+- Async processing
+- Connection pools
+- Query performance
 - Profiling
+- Performance measurement
 
 Repository:
 
-performance-lab
+`performance-lab`
 
 ---
 
-# Phase 14 – System Design
+# Phase 7 – System Design
 
-## Sprint 14
+## Sprint 7
 
-Projects:
+### Objective
+
+Build system design fundamentals and demonstrate scalable architecture thinking.
+
+### Projects
 
 - URL Shortener
 - Rate Limiter
@@ -319,45 +440,60 @@ Projects:
 - Chat System
 - Food Delivery
 
-Deliverables:
+### Deliverables
 
+For each system:
+
+- Requirements
 - Architecture
 - APIs
 - Database Design
+- Scaling Strategy
+- Failure Handling
+- Caching Strategy
+- Messaging Strategy
 - Trade-offs
 
 ---
 
-# Phase 15 – Interview Preparation
+# Phase 8 – Interview & Offer Ready
 
-## Sprint 15
+## Sprint 8
+
+### Objective
+
+Convert the engineering work into interview and job-search readiness.
+
+### Areas
 
 - Resume Review
+- Resume Optimization
 - LinkedIn Review
 - GitHub Review
+- DSA
+- Java Interview Preparation
+- Spring Boot Interview Preparation
+- SQL
+- System Design
 - Mock Interviews
-- Company-specific Preparation
 - Behavioral Interviews
+- Company-specific Preparation
+- Application Strategy
 
 ---
 
 # Telemedicine HMS Evolution
 
-| Sprint | HMS Upgrade |
-|---------|-------------|
-| Sprint 1 | Request Flow & Logging |
-| Sprint 2 | Production APIs |
-| Sprint 3 | JPA Optimization |
-| Sprint 4 | Security |
-| Sprint 5 | Testing |
-| Sprint 6 | Docker |
-| Sprint 7 | Redis |
-| Sprint 8 | Spring Cloud |
-| Sprint 9 | Kafka |
-| Sprint 10 | AWS Deployment |
-| Sprint 11 | CI/CD |
-| Sprint 12 | Monitoring |
-| Sprint 13 | Performance |
+| Sprint | HMS Upgrade | Status |
+|---|---|---|
+| Sprint 1 | Java & Spring Boot Foundation | ✅ |
+| Sprint 2 | Production API Engineering | ✅ |
+| Sprint 3 | Security, Testing & Containerization | 🔄 |
+| Sprint 4 | Distributed Systems | ⏳ |
+| Sprint 5 | Cloud & CI/CD | ⏳ |
+| Sprint 6 | Observability & Performance | ⏳ |
+| Sprint 7 | System Design Applications | ⏳ |
+| Sprint 8 | Interview & Offer Preparation | ⏳ |
 
 ---
 
@@ -369,25 +505,6 @@ Deliverables:
 - ⭐ career-os
 - ⭐ portfolio
 
-<!-- ## Engineering Repositories
-
-- ✅ java-collections-playground
-- ✅ java-jvm-playground
-- ✅ springboot-request-lifecycle-demo
-- ⏳ springboot-production-practices-demo
-- ⏳ springboot-production-api
-- ⏳ jpa-performance-demo
-- ⏳ spring-security-jwt-demo
-- ⏳ springboot-testing-demo
-- ⏳ docker-springboot-demo
-- ⏳ redis-cache-demo
-- ⏳ spring-cloud-demo
-- ⏳ kafka-event-demo
-- ⏳ aws-spring-demo
-- ⏳ github-actions-demo
-- ⏳ monitoring-demo
-- ⏳ performance-lab -->
-
 ## Engineering Repositories
 
 ### Completed
@@ -396,29 +513,52 @@ Deliverables:
 - ✅ java-jvm-playground
 - ✅ springboot-request-lifecycle-demo
 - ✅ springboot-production-practices-demo
+- ✅ jwt-authentication-playground
+- ✅ docker-springboot-playground
+
+### Current
+
+- 🔄 springboot-testing-demo
 
 ### Planned
 
-- spring-security-jwt-demo
-- docker-springboot-demo
-- redis-cache-demo
-- spring-cloud-demo
-- kafka-event-demo
-- aws-spring-demo
-- github-actions-demo
-- monitoring-demo
-- performance-lab
+- ⏳ redis-cache-demo
+- ⏳ kafka-event-demo
+- ⏳ aws-spring-demo
+- ⏳ github-actions-demo
+- ⏳ monitoring-demo
+- ⏳ performance-lab
+
+---
+
+# Career Evidence Model
+
+Every major initiative should produce four outputs:
+
+1. **Learning** – Understand the technology or engineering concept.
+2. **Implementation** – Apply it to Telemedicine HMS.
+3. **Evidence** – GitHub repository, commits, documentation, and architecture changes.
+4. **Interview Story** – Capture the problem, implementation, trade-offs, and lessons learned.
 
 ---
 
 # Success Criteria
 
-Before applying to top product companies, I should have:
+Before applying aggressively to top product companies, I should have:
 
-- Production-ready GitHub portfolio
-- Strong Telemedicine HMS project
-- Resume aligned with backend roles
-- Interview-ready Java & Spring Boot knowledge
-- Solid DSA foundation
-- Practical cloud & DevOps experience
+- Production-oriented GitHub portfolio
+- Strong Telemedicine HMS flagship project
+- Consistent engineering documentation
+- Resume aligned with Java Backend / Software Engineering roles
+- Strong Java & Spring Boot fundamentals
+- Practical microservices experience
+- Security implementation experience
+- Automated testing experience
+- Docker & containerization experience
+- Redis and Kafka experience
+- Cloud deployment experience
+- CI/CD experience
+- Monitoring and performance fundamentals
 - System design fundamentals
+- Solid DSA preparation
+- Interview-ready technical explanations
