@@ -6,11 +6,9 @@
 
 # Current Status
 
-**Current Milestone:** M3 – Production Infrastructure & DevOps
-
-**Current Sprint:** Sprint 3 – Security, Testing & Containerization
-
-**Current Initiative:** S3-I3 – Unit Testing
+- **Current Milestone:** M4 — Distributed Systems
+- **Current Sprint:** Sprint 4
+- **Current Initiative:** S4-I1 — Redis & Caching
 
 ---
 
@@ -21,8 +19,8 @@
 | M0 Engineering Setup | ✅ |
 | M1 Java Backend Foundation | ✅ |
 | M2 Production Backend Engineering | ✅ |
-| M3 Production Infrastructure & DevOps | 🔄 |
-| M4 Distributed Systems | ⏳ |
+| M3 Production Infrastructure & DevOps | ✅ |
+| M4 Distributed Systems | 🔄 |
 | M5 Cloud Native Engineering | ⏳ |
 | M6 Interview & Offer Ready | ⏳ |
 
@@ -151,134 +149,68 @@ Telemedicine HMS evolved from a functional microservices application into a more
 
 # Phase 3 – Production Infrastructure & DevOps
 
-## Sprint 3
+## Sprint 3 — Production Infrastructure & Testing
 
-### Objective
+**Status:** ✅ Complete
 
-Strengthen authentication, containerize the platform, introduce automated testing, and make the Telemedicine HMS easier to run and maintain as a production-oriented system.
+### Sprint Objective
 
-### Status
-
-🔄 In Progress
+Strengthen authentication, containerized development, and automated testing to improve the reliability and repeatability of the backend engineering workflow.
 
 ### Initiatives
 
-| Initiative | Status |
-|---|---|
-| S3-I1 – JWT Hardening & Refresh Token Architecture | ✅ |
-| S3-I2 – Docker & Docker Compose | ✅ |
-| S3-I3 – Unit Testing | 🔄 |
-| S3-I4 – Integration Testing | ⏳ |
-| Sprint 3 Review | ⏳ |
+| Initiative | Description | Status |
+|---|---|---:|
+| S3-I1 | JWT Hardening & Refresh Token Architecture | ✅ Complete |
+| S3-I2 | Docker & Docker Compose | ✅ Complete |
+| S3-I3 | Unit Testing with JUnit 5 and Mockito | ✅ Complete |
+| S3-I4 | Integration Testing | ✅ Complete |
 
----
+### Completed Outcomes
 
-## S3-I1 – JWT Hardening & Refresh Token Architecture
+- Implemented JWT authentication hardening and refresh-token architecture.
+- Improved containerized application execution using Docker and Docker Compose.
+- Implemented unit tests using JUnit 5 and Mockito.
+- Completed the planned integration-testing work.
+- Reviewed implementation evidence and documented remaining limitations.
+- Prepared the engineering workflow for the Redis & Caching sprint.
 
-### Completed
+### Evidence
 
-- JWT authentication hardening
-- Access token lifecycle
-- Refresh token architecture
-- Token validation
-- Authentication flow improvements
-- Authorization/RBAC review
-- Secure authentication practices
-- Authentication documentation
+- JWT implementation: `jwt-authentication-playground`
+- Docker implementation: `docker-springboot-playground`
+- Testing implementation: `springboot-testing-demo`
+- Healthcare management system: `telemedicine-hms`
+- Progress record: `roadmap/progress.md`
+- Skills matrix: `roadmap/skills-matrix.md`
+- Sprint retrospective: `retrospectives/sprint-3-retrospective.md`
 
-### Outcome
+> Replace repository names or paths if your actual implementation uses different locations. Record Testcontainers, PostgreSQL integration, and other environment-specific capabilities as completed only when they have actually been configured and successfully tested.
 
-Strengthened the HMS authentication architecture and introduced a more production-oriented access-token and refresh-token lifecycle.
+### Sprint Completion Criteria
 
----
+- [x] JWT hardening and refresh-token implementation completed.
+- [x] Docker and Docker Compose implementation completed.
+- [x] Planned unit-testing work completed.
+- [x] Planned integration-testing work completed.
+- [x] Sprint documentation and retrospective prepared.
 
-## S3-I2 – Docker & Docker Compose
+### Completion Note
 
-### Completed
+Sprint 3 is closed based on the verified completion status of its planned initiatives. This does not, by itself, establish that every service is production-ready. Remaining reliability, security, testing, and operational gaps must continue to be tracked separately.
 
-- Docker fundamentals
-- Dockerfile
-- Spring Boot containerization
-- Docker Compose
-- Container networking
-- Environment configuration
-- Multi-service orchestration
-- PostgreSQL containerization where applicable
-- Containerized HMS startup workflow
+### Next Sprint
 
-### Outcome
+Sprint 4 — Distributed Systems
 
-Telemedicine HMS can be run as a containerized multi-service application using Docker Compose rather than requiring every service to be started manually.
-
----
-
-## S3-I3 – Unit Testing
-
-### Status
-
-🔄 Current
-
-### Topics
-
-- JUnit 5
-- Mockito
-- Unit testing principles
-- Service-layer testing
-- Controller testing
-- Mocking dependencies
-- Test organization
-- Success and failure scenarios
-- Test coverage
-
-### Engineering Repository
-
-`springboot-testing-demo`
-
-### HMS Application
-
-Apply unit testing to critical business logic across the core services.
-
----
-
-## S3-I4 – Integration Testing
-
-### Status
-
-⏳ Planned
-
-### Topics
-
-- Spring Boot Test
-- MockMvc
-- Integration testing
-- PostgreSQL integration
-- Testcontainers
-- API-level testing
-- Service interaction testing
-
-### HMS Application
-
-Validate important service and API flows using realistic dependencies.
-
----
-
-### Sprint 3 Expected Outcome
-
-The Telemedicine HMS should have:
-
-- Hardened authentication
-- Refresh token architecture
-- Containerized services
-- Docker Compose orchestration
-- Unit tests for critical business logic
-- Integration tests for critical API flows
-- Repeatable local execution
-
+**First initiative:** S4-I1 — Redis & Caching
 ---
 
 # Phase 4 – Distributed Systems
 
 ## Sprint 4
+
+**Status:** ✅ Complete
 
 ### Objective
 
@@ -488,8 +420,8 @@ Convert the engineering work into interview and job-search readiness.
 |---|---|---|
 | Sprint 1 | Java & Spring Boot Foundation | ✅ |
 | Sprint 2 | Production API Engineering | ✅ |
-| Sprint 3 | Security, Testing & Containerization | 🔄 |
-| Sprint 4 | Distributed Systems | ⏳ |
+| Sprint 3 | Security, Testing & Containerization | ✅ |
+| Sprint 4 | Distributed Systems | 🔄 |
 | Sprint 5 | Cloud & CI/CD | ⏳ |
 | Sprint 6 | Observability & Performance | ⏳ |
 | Sprint 7 | System Design Applications | ⏳ |
