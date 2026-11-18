@@ -8,7 +8,7 @@
 
 - **Current Milestone:** M4 — Distributed Systems
 - **Current Sprint:** Sprint 4
-- **Current Initiative:** S4-I1 — Redis & Caching
+- **Current Initiative:** S4-I2 — Resilience4j & Fault Tolerance
 
 ---
 
@@ -210,7 +210,7 @@ Sprint 4 — Distributed Systems
 
 ## Sprint 4
 
-**Status:** ✅ Complete
+**Status:** 🔄 In Progress
 
 ### Objective
 
@@ -220,10 +220,10 @@ Introduce technologies and patterns required for scalable distributed backend sy
 
 | Initiative | Status |
 |---|---|
-| Redis & Caching | ⏳ |
-| Resilience4j & Fault Tolerance | ⏳ |
-| Kafka & Event-Driven Architecture | ⏳ |
-| Distributed Service Communication | ⏳ |
+| S4-I1 – Redis & Caching | 🔄 Partially Complete |
+| S4-I2 – Resilience4j & Fault Tolerance | ⏳ Next |
+| S4-I3 – Kafka & Event-Driven Architecture | ⏳ |
+| S4-I4 – Distributed Service Communication | ⏳ |
 
 ### Topics
 

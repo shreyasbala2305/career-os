@@ -36,9 +36,9 @@ Learn → Build Mini Project → Apply to HMS → Document → Practice Intervie
 
 | Skill | Learn | Project | HMS | Interview | Resume |
 |---|---:|---:|---:|---:|---:|
-| OpenFeign | ⏳ | ❌ | ✅ | 🔄 | 🔄 |
-| Microservices Architecture | ⏳ | ❌ | ✅ | 🔄 | 🔄 |
-| Distributed Service Communication | ⏳ | ❌ | ⏳ | ⏳ | ❌ |
+| OpenFeign | ✅ | ✅ | ✅ | 🔄 | 🔄 |
+| Microservices Architecture | ✅ | ✅ | ✅ | 🔄 | 🔄 |
+| Distributed Service Communication | ✅ | ❌ | ⏳ | ⏳ | ❌ |
 
 ## Security and Authentication
 
@@ -87,11 +87,17 @@ Learn → Build Mini Project → Apply to HMS → Document → Practice Intervie
 
 | Skill | Learn | Project | HMS | Interview | Resume |
 |---|---:|---:|---:|---:|---:|
-| Caching Fundamentals | 🔄 | ⏳ | ⏳ | ⏳ | ❌ |
-| Redis | ⏳ | ⏳ | ⏳ | ⏳ | ❌ |
+| Caching Fundamentals | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Redis | ✅ | ✅ | ⏳ | 🔄 | 🔄 |
+| Cache-Aside Pattern | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Cache Invalidation | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Cache TTL and Expiration | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Cache Eviction | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Cache Statistics | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Spring Data Redis | ✅ | ✅ | ⏳ | 🔄 | 🔄 |
+| Redis Serialization | ✅ | ✅ | ⏳ | 🔄 | ❌ |
+| Performance Analysis | ✅ | ✅ | ⏳ | 🔄 | ❌ |
 | Spring Cache Abstraction | ⏳ | ⏳ | ⏳ | ⏳ | ❌ |
-| Cache Invalidation | ⏳ | ⏳ | ⏳ | ⏳ | ❌ |
-| Cache TTL and Expiration | ⏳ | ⏳ | ⏳ | ⏳ | ❌ |
 | Kafka | ⏳ | ❌ | ❌ | ❌ | ❌ |
 | Resilience4j | ⏳ | ❌ | ❌ | ❌ | ❌ |
 
